@@ -1,0 +1,9 @@
+name: heorhii_helper_functions
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=20.0
+  - python=3.8
+  - pip:
+    - -r file:requirements.txt
